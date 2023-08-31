@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.calculator{
+    width : 600px;
+    height : fit-content;
+    background-color: rgb(126, 192, 162,0.5);
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform : translate(-50%,20%);
+    border-radius : 5px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    text-align: center;
+    padding: 30px 0px; 
+    /* spcae between the top text and box  */ 
+}
+input{
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    margin:10px;
+    border:none;
+    outline: none;
+}
+button{
+    font-size: 12px;
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    border-color:black;
+}
+.image{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('coffee.png');
+    background-size: cover;
+    background-position: 50%;
+}
